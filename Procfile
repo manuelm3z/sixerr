@@ -1,0 +1,1 @@
+web: gunicorn sixxer.wsgi --log-file -
