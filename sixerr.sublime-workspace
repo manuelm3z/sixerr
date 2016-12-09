@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"panel",
+				"panel-default"
+			],
+			[
+				"db",
+				"db_from_env"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
 				"temp",
 				"temp_file"
 			],
@@ -226,10 +250,6 @@
 			[
 				"btn",
 				"btn-labeled"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"crt",
@@ -494,31 +514,29 @@
 			[
 				"con",
 				"control-label"
-			],
-			[
-				"email_se",
-				"email_settings_model"
-			],
-			[
-				"fa",
-				"fa-check"
-			],
-			[
-				"func",
-				"function_exists"
-			],
-			[
-				"clas",
-				"class_name_page"
-			],
-			[
-				"meta",
-				"meta_description"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "sixerrapp/social_auth_pipeline.py",
+			"settings":
+			{
+				"buffer_size": 379,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sixerr/settings.py",
+			"settings":
+			{
+				"buffer_size": 4400,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -561,21 +579,24 @@
 	"expanded_folders":
 	[
 		"/home/manuelm3z/proyectos/python/sixerr",
-		"/home/manuelm3z/proyectos/python/sixerr/sixerr",
-		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp",
-		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp/static",
-		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp/static/img",
-		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp/templates"
+		"/home/manuelm3z/proyectos/python/sixerr/sixerr"
 	],
 	"file_history":
 	[
-		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp/views.py",
+		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp/admin.py",
 		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp/templates/gig_detail.html",
+		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp/models.py",
+		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp/static/css/app.css",
+		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp/templates/base.html",
 		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp/templates/home.html",
+		"/home/manuelm3z/proyectos/python/sixerr/runtime.txt",
+		"/home/manuelm3z/proyectos/python/sixerr/requirements.txt",
+		"/home/manuelm3z/proyectos/python/sixerr/sixerr/wsgi.py",
 		"/home/manuelm3z/proyectos/python/sixerr/sixerr/settings.py",
+		"/home/manuelm3z/proyectos/python/sixerr/Procfile",
+		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp/views.py",
 		"/home/manuelm3z/proyectos/python/sixerr/sixerr/urls.py",
 		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp/urls.py",
-		"/home/manuelm3z/proyectos/python/sixerr/sixerrapp/templates/base.html",
 		"/home/manuelm3z/proyectos/workshop-2016/webpack-try/dist/admin_banner.bundle.js",
 		"/home/manuelm3z/proyectos/workshop-2016/webpack-try/dist/commons.chunk.js.bundle.js",
 		"/home/manuelm3z/proyectos/workshop-2016/webpack-try/dist/bundle.js",
@@ -689,14 +710,7 @@
 		"/home/manuelm3z/Desktop/Respaldo/profile 1.php",
 		"/home/manuelm3z/Desktop/profile.php",
 		"/home/manuelm3z/proyectos/petsonal/store/src/static/store/src/app/products/product-discount.component.jsx",
-		"/home/manuelm3z/Descargas/codecanyon-12124432-active-super-shop-multivendor-cms/application/models/Crud_model.php",
-		"/home/manuelm3z/proyectos/petsonal/store/src/static/store/src/app/views/cart/index.js",
-		"/home/manuelm3z/proyectos/javascript/ritta/source/app/jobs/job-item.factory.js",
-		"/home/manuelm3z/proyectos/petsonal/store/src/static/store/src/app/cart/shopping-cart-amount.component.jsx",
-		"/home/manuelm3z/proyectos/petsonal/store/src/static/store/src/app/cart/shopping-cart-list.component.jsx",
-		"/home/manuelm3z/proyectos/petsonal/store/src/static/store/src/app/factory/checkout.factory.js",
-		"/home/manuelm3z/proyectos/petsonal/store/src/application/views/product/featured_list.php",
-		"/home/manuelm3z/proyectos/petsonal/store/src/application/views/front/invoice_email.php"
+		"/home/manuelm3z/Descargas/codecanyon-12124432-active-super-shop-multivendor-cms/application/models/Crud_model.php"
 	],
 	"find":
 	{
@@ -715,6 +729,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"social_core",
+			"and",
 			"ReactDOM",
 			"col-md-8",
 			"img-responsive",
@@ -840,9 +856,7 @@
 			"$data",
 			"=",
 			"401",
-			"optionsv",
-			"get_cat",
-			"preview"
+			"optionsv"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -860,8 +874,68 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "sixerrapp/social_auth_pipeline.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								379,
+								379
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sixerr/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4359,
+								4359
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1548.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -954,7 +1028,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 197.0,
+	"side_bar_width": 239.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
