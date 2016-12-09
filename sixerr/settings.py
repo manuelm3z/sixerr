@@ -26,7 +26,8 @@ SECRET_KEY = '9ds$4yk^)99431q!ri6bs0v(!e9%7=4_cn3iedz40@!4-oqglx'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'mysterious-escarpment-91215.herokuapp.com'
+    'mysterious-escarpment-91215.herokuapp.com',
+    'localhost'
 ]
 
 

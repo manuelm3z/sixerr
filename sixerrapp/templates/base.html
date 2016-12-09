@@ -26,6 +26,7 @@
 					{% if user and not user.is_anonymous %}
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="fase">
+								<img src="{% static 'img/avatar.png' %}" class="img-circle" height="22" width="22">
 								{{ user.get_full_name|default:user.username}} <span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu">
@@ -75,6 +76,7 @@
 			<span>Sixxer App &copy; 2016</span>
 		</div>
 	</footer>
-	<script type="text/javascript" src="{% static 'js/bootstrap.min.js '%}"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
 </body>
 </html>
