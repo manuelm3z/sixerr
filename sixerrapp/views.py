@@ -51,3 +51,6 @@ def edit_gig(request, id):
 def my_gigs(request):
 	gigs = Gig.objects.filter(user=request.user)
 	return render(request, 'my_gigs.html', {'gigs': gigs})
+
+def profile(request, username):
+	return render(request, 'profile.html', {})
