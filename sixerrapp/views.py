@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
-from .models import Gig
+from .models import Gig, Profile
 from .forms import GigForm
 
 # Create your views here.
@@ -53,4 +53,8 @@ def my_gigs(request):
 	return render(request, 'my_gigs.html', {'gigs': gigs})
 
 def profile(request, username):
-	return render(request, 'profile.html', {})
+	try:
+		profile = Profile.objects.get(user__username=username)
+	except Profile.DoesNotExist:
+		return redirect('/')
+	return render(request, 'profile.html', {'profile': profile})
