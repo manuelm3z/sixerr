@@ -53,10 +53,17 @@ def my_gigs(request):
 	return render(request, 'my_gigs.html', {'gigs': gigs})
 
 def profile(request, username):
-	try:
-		profile = Profile.objects.get(user__username=username)
-	except Profile.DoesNotExist:
-		return redirect('/')
+	if request.method == 'POST':
+		profile = Profile.objects.get(user=request.user)
+		profile.about = request.POST['about']
+		profile.slogan = request.POST['slogan']
+		profile.save()
+	else:
+		try:
+			profile = Profile.objects.get(user__username=username)
+		except Profile.DoesNotExist:
+			return redirect('/')
+
 
 	gigs = Gig.objects.filter(user=profile.user, status=True)
 	return render(request, 'profile.html', {'profile': profile, 'gigs': gigs})

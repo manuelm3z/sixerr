@@ -2,6 +2,29 @@
 {% load staticfiles %}
 
 {% block page %}
+    {% if request.user == profile.user %}
+    <form method="post">
+        {% csrf_token %}
+        <div class="jumbotron text-center">
+            <h1>
+                <b>{{ profile.user.username }}</b>
+                <input type="text" class="form-control" name="slogan" value="{{ profile.slogan }}">
+            </h1>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <img src="{{ profile.avatar }}" class="img-circle" height="120" width="120">
+                <h3 class="text-uppercase">
+                    <b>About {{ profile.user.username }}</b>
+                </h3>
+                <hr>
+                <input class="form-control" name="about" value="{{ profile.about }}">
+                <br>
+                <button type="submit" class="btn btn-success">Update</button>
+            </div>
+        </div>
+    </form>
+    {% else %}
     <div class="jumbotron text-center">
         <h1>
             <b>{{ profile.user.username }}</b>
@@ -43,4 +66,5 @@
             </div>
         {% endfor %}
     </div>
+    {% endif %}
 {% endblock %}
