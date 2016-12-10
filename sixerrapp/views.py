@@ -1,7 +1,12 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
+
 from .models import Gig, Profile
 from .forms import GigForm
+
+import braintree
+
+braintree.Configuration.configure(braintree.Enviroment.Sandbox, merchant_id='gghk39gq29b52885', public_key='cn9dmc3xvw4s4zgh', private_key='b17f6134d87ee2d626aa3ad67eaf06a2')
 
 # Create your views here.
 def home(request):
