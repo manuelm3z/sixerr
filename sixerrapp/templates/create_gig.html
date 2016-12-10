@@ -2,6 +2,7 @@
 {% load staticfiles %}
 
 {% block page %}
+    {{ error }}
     <form class="" method="POST" enctype="multipart/form-data">
       {% csrf_token %}
       {{ gig_form}}
